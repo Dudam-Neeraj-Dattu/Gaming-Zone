@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin-top: 2px;
+}
+
+p{
+  color:#DBEDF3;
+  font-family: "Arvo", cursive;
+  font-size: 25px;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+}
+
+.w {
+  background-image: url("/drum_game/images/tom1.png");
+}
+
+.a {
+  background-image: url("/drum_game/images/tom2.png");
+}
+
+.s {
+  background-image: url("/drum_game/images/tom3.png");
+}
+
+.d {
+  background-image: url("/drum_game/images/tom4.png");
+}
+
+.j {
+  background-image: url("/drum_game/images/snare.png");
+}
+
+.k {
+  background-image: url("/drum_game/images/crash.png");
+}
+
+.l {
+  background-image: url("/drum_game/images/kick.png");
+}
+
+.set {
+  margin: 8% auto;
+}
+
+
+.start, .play, .startnew {
+  font-size: 1.5rem;
+  font-family: "Arvo", cursive;
+  color: #000000;
+  font-weight: bolder;
+  background-color: white;
+  border: none;
+  color: #154b2d;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 12px;  
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.start:hover, .play:hover, .startnew:hover {
+  background-color: #DA0463;
+  color: white;
+  text-shadow: 1px 0 #232931;
+  font-weight:bolder;
+  border: #d1d0d0;
+  border-style: solid;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Arvo', cursive;
+  font-size: 30px;
+
+}
+
+.linkedin {
+  text-decoration: none;
+  color:#DBEDF3;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.linkedin:hover{
+  color: white;
+  text-shadow: 2px 0 #DA0463;
+}
