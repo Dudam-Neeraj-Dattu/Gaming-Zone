@@ -35,9 +35,9 @@ function oneplayermode() {
   function throwdice() {
 
     var randonenumber1 = Math.floor(Math.random() * 6) + 1;
-    document.querySelectorAll("img")[0].setAttribute("src", "/dice_game/dice_game_images/dice" + randonenumber1 + ".png");
+    document.querySelectorAll("img")[0].setAttribute("src", "../dice_game/dice_game_images/dice" + randonenumber1 + ".png");
     var randonenumber2 = Math.floor(Math.random() * 6) + 1;
-    document.querySelectorAll("img")[1].setAttribute("src", "/dice_game/dice_game_images/dice" + randonenumber2 + ".png");
+    document.querySelectorAll("img")[1].setAttribute("src", "../dice_game/dice_game_images/dice" + randonenumber2 + ".png");
     if (randonenumber1 > randonenumber2) {
       document.querySelectorAll("h1")[1].innerHTML = "😎 " + player1 + " Won";
       document.querySelectorAll("p")[1].innerHTML = "Points : " + ++player1points;
@@ -151,9 +151,9 @@ function twoplayermode() {
   function throwdice() {
 
     var randonenumber1 = Math.floor(Math.random() * 6) + 1; //getting player 1 random number between 1 - 6    
-    document.querySelectorAll("img")[0].setAttribute("src", "/dice_game/dice_game_images/dice" + randonenumber1 + ".png"); //changing image to dice number
+    document.querySelectorAll("img")[0].setAttribute("src", "../dice_game/dice_game_images/dice" + randonenumber1 + ".png"); //changing image to dice number
     var randonenumber2 = Math.floor(Math.random() * 6) + 1; //getting player 1 random number between 1 - 6    
-    document.querySelectorAll("img")[1].setAttribute("src", "/dice_game/dice_game_images/dice" + randonenumber2 + ".png"); //changing image to dice number
+    document.querySelectorAll("img")[1].setAttribute("src", "../dice_game/dice_game_images/dice" + randonenumber2 + ".png"); //changing image to dice number
 
     //performing conditonal checks to display winner
 
