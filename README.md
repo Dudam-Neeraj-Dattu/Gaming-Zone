@@ -10,4 +10,4 @@
 
 - Created this website using the concepts of HTML, CSS, Bootstrap, JavaScript, Jquery.
 
-![img](/images/gaming_site.png)
+![img](/assests/gaming_site.png)
